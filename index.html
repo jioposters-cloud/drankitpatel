@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dr. Ankit Patel - Imax Dental Clinic</title>
+      <meta name="description" content="Imax Dental Clinic, Deesa - Dr. Ankit Patel">
+      <style>
+                body, html {
+                              margin: 0;
+                              padding: 0;
+                              height: 100%;
+                              width: 100%;
+                              overflow: hidden; /* Prevents double scrollbars */
+                              background-color: #ffffff;
+                }
+
+                /* 
+                   This container crops the bottom of the iframe to hide the Canva footer.
+                   The iframe is made slightly taller than the screen, hiding the bottom part.
+                */
+                .canva-embed-container {
+                              position: relative;
+                              width: 100%;
+                              height: 100vh;
+                              overflow: hidden;
+                }
+
+                .canva-embed-container iframe {
+                              position: absolute;
+                              top: 0;
+                              left: 0;
+                              width: 100%;
+                              /* Make the iframe 60px taller than the screen to hide the bottom Canva watermark */
+                              height: calc(100vh + 60px); 
+                              border: none;
+                }
+
+                /* Responsive adjustments for mobile if the footer size changes */
+                @media (max-width: 768px) {
+                              .canva-embed-container iframe {
+                                                height: calc(100vh + 70px);
+                              }
+                }
+            </style>
+  </head>
+  <body>
+
+        <div class="canva-embed-container">
+                  <!-- Paste your Canva Embed link below in the src="..." -->
+                  <iframe src="https://www.canva.com/design/DAG55eK6iUM/Fur3b5ESt-49hOgCJv-MDQ/view?embed" 
+                                    allowfullscreen="allowfullscreen" 
+                                    allow="fullscreen">
+                  </iframe>iframe>
+        </div>div>
+
+  </body>
+</html>html>
+  </body>
+      </style></title>
+  </head>
